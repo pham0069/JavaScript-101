@@ -1,0 +1,14 @@
+<!--
+    In the global context, this refers to the global object, 
+    which is the window in the web browser or global in node.js
+    The following html file demonstrates this
+-->
+<html>
+    <body>
+        <script lang="JS">
+            document.writeln("This refers to window?", this === window, "\n"); // true
+            this.value = 10;
+            document.writeln("Window value set to ", window.value); // 10
+        </script>
+    </body>
+</html>

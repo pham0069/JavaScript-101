@@ -1,0 +1,20 @@
+JS is scripting language designed to interact with elements of web pages
+====================================================================================
+3 main parts
+1. ECMAScript providing core functionality
+2. DOM (Document Object Model) providing interface to interact with elements on web pages
+3. BOM (Browser Object Model) providing interface to interact with web browsers
+====================================================================================
+JS allows adding interactivity to webpage
+When web page is loaded (after HTML and CSS have been downloaded), 
+web browser's JS engine starts executing JS code
+JS code then modifies HTML and CSS to update UI dynanmically using DOM
+====================================================================================
+Client-side VS server-side JS
+* When JS is used in web page, it is executed in web browser of user's computers,
+thus called JS client-side 
+* JS can run on server to return result for display in web browser
+Example is Node JS
+====================================================================================
+Use node to run js scripts in this folder
+e.g. node operator/andDemo.js
